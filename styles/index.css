@@ -6,12 +6,15 @@
 
 body {
     margin: 0;
-    background: var(--primary-backgroud);
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+}
+
+.main-body {
+    background: var(--primary-backgroud);
 }
 
 header {
