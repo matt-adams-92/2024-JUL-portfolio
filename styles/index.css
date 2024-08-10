@@ -1,20 +1,20 @@
 :root {
     --primary-color: #B52C2C;
+    --primary-hover: #e25555;
     --secondary-color: #E2E1E1;
-    --primary-backgroud: #A5A5A5;
+    --primary-background: #A5A5A5;
 }
 
 body {
     margin: 0;
+}
 
+.main-body {
+    background: var(--primary-background);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
-}
-
-.main-body {
-    background: var(--primary-backgroud);
 }
 
 header {
@@ -50,7 +50,7 @@ img {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 20px;
 }
 
@@ -108,6 +108,6 @@ footer {
 
 @media screen and (min-width: 768px) {
     body {
-        padding: 0 15vw;
+        padding: 0 0vw;
     }
 }
